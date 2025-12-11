@@ -1,12 +1,10 @@
-
+import Directory from './components/directory/directory.component/directory.component';
+import categoriesList from './components/category-list/category-list';
 
 const App = () => {
 
   return (
-    <>
-      Hello world
-    </>
-  )
-}
-
-export default App
+    <Directory categoriesList={categoriesList}/>
+  );
+};
+export default App;
